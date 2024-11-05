@@ -1,6 +1,6 @@
 [package]
 name = "git_vault"
-version = "1.2.3"
+version = "0.0.9"
 edition = "2021"
 author = "Saksham Tomer	<github: github.com/saksham-tomer>"
 description = "A simplified version control system built in Rust for local files, quite similar to how git functions."
