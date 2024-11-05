@@ -6,8 +6,8 @@ author = "Saksham Tomer	<github: github.com/saksham-tomer>"
 description = "A simplified version control system built in Rust for local files, quite similar to how git functions."
 license-file = "LICENSE"
 repository = "https://github.com/saksham-tomer/vault"
-categories = ["development-tools","command-line-utilities","data-structures"]
-keywords = ["cli","git","development-tools","command-line-utilities"]
+categories = ["development-tools","data-structures","cryptography"]
+keywords = ["cli","git","development-tools","cryptography"]
 readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
