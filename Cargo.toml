@@ -1,0 +1,23 @@
+[package]
+name = "git_vault"
+version = "1.2.3"
+edition = "2024"
+author = "Saksham Tomer	<github: github.com/saksham-tomer>"
+description = "A simplified version control system built in Rust for local files, quite similar to how git functions."
+license-file = "LICENSE"
+repository = "https://github.com/saksham-tomer/vault"
+categories = ["cli", "version-control", "git","developer-utility"]
+keywords = ["cli", "version-control", "git","developer-utility"]
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.4.8", features = ["derive"] }
+flate2 = "1.0"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = "0.4.31"
+whoami = "1.4.1"
+sha256 = "1.4.0"
+serde_yaml = "0.9.27"
