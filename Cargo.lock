@@ -285,6 +285,20 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4271d37baee1b8c7e4b708028c57d816cf9d2434acb33a549475f78c181f6253"
 
 [[package]]
+name = "git_vault"
+version = "1.2.3"
+dependencies = [
+ "chrono",
+ "clap",
+ "flate2",
+ "serde",
+ "serde_json",
+ "serde_yaml",
+ "sha256",
+ "whoami",
+]
+
+[[package]]
 name = "hashbrown"
 version = "0.14.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -556,20 +570,6 @@ name = "utf8parse"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "711b9620af191e0cdc7468a8d14e709c3dcdb115b36f838e601583af800a370a"
-
-[[package]]
-name = "vault_vcs"
-version = "1.2.3"
-dependencies = [
- "chrono",
- "clap",
- "flate2",
- "serde",
- "serde_json",
- "serde_yaml",
- "sha256",
- "whoami",
-]
 
 [[package]]
 name = "version_check"
